@@ -1,0 +1,1 @@
+A Linux kernel module implementing a virtual temperature sensor through a character device interface. This device simulates sensor data and allows user-space applications to interact with it via standard file operations (read, write, ioctl) through /dev/virt_temp. Designed for learning and demonstrating kernel-space to user-space interaction.
